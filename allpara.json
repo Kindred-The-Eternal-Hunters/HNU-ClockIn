@@ -31,8 +31,8 @@
 //"MorningTemp": null,
 //"NightTemp": null,
 //"QRCodeColor": "绿色",
-//"tripinfolist": [],
-//"toucherinfolist": [],
+//"tripinfolist": [],           //见下行
+//"toucherinfolist": [],        //经测试，这两个list与IsNormalTemperature有密切关系，而这一项在IsNormalTemperature取1时是必须参数
 "dailyinfo": {//"Code": "\有东西哦，token22位，不同于上",
 	   //"Name": null,
 	   //"AddTime": "\未知时间不同于上",
