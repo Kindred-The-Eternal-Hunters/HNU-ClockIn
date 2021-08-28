@@ -9,6 +9,7 @@
 "IsInCampus": 0,
 "IsNormalTemperature": 1,
 "QRCodeColor": "绿色",
+"toucherinfolist": [],
 "dailyinfo": {}
 }
 
