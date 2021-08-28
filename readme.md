@@ -76,6 +76,9 @@ python multiCheckin.py
 传播脚本之前请务必记得删除`UserLib`里的`pkl`文件、`EVENT.TXT`并通过`usrControl.py`（或者直接找//UsrLib/Usr.json进行清除，注意保留{}）**删除所有用户信息！！**
 
 ## 更新日志
+### 　2021/8/27
+　　\*　修复了一个bug，该bug曾导致“体温正常项”无法正常提交。
+  
 ### 　2021/8
 　　\*　新增"绿码"功能
   
@@ -85,8 +88,7 @@ python multiCheckin.py
   
 　　\*　dailyinfo参数并入必要参数
   
-### 　2021/8/27
-　　\*　修复了一个bug，该bug曾导致“体温正常项”无法正常提交。
+
 
 
 
