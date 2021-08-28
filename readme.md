@@ -84,6 +84,9 @@ python multiCheckin.py
 　　·　移除各种体温监测
   
 　　·　dailyinfo参数并入必要参数
+  
+### 　2021/8/27
+　　·　修复了一个bug，该bug曾导致“体温正常项”无法正常提交。
 
 
 
