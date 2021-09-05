@@ -51,7 +51,6 @@ def checkin(cookies):
             checkinCount += 1
             try:
                                 status = re.post("https://fangkong.hnu.edu.cn/api/v1/clockinlog/add", headers = {'Content-Type': 'application/json'}, data=dic, cookies=cookies).content.decode("utf-8")
-                                print(status)
             except Exception as e:
                 print("(X) ATTEMPT: " + str(checkinCount) + " --- " + str(e))
                 continue
