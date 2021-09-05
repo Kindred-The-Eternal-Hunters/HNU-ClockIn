@@ -22,7 +22,7 @@ for item in para.items():
     
 dic={key[i]:value[i] for i in range(n)}
 dic=json.dumps(dic)
-print(dic)
+
 
 
 
