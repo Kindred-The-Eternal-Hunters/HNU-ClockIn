@@ -21,7 +21,8 @@ for item in para.items():
     i+=1
     
 dic={key[i]:value[i] for i in range(n)}
-
+dic=json.dumps(dic)
+print(dic)
 
 
 
@@ -49,7 +50,8 @@ def checkin(cookies):
                 raise Exception("try too much times")
             checkinCount += 1
             try:
-                status = re.post("https://fangkong.hnu.edu.cn/api/v1/clockinlog/add", data=dic, cookies=cookies).content.decode("utf-8")
+                                status = re.post("https://fangkong.hnu.edu.cn/api/v1/clockinlog/add", headers = {'Content-Type': 'application/json'}, data=dic, cookies=cookies).content.decode("utf-8")
+                                print(status)
             except Exception as e:
                 print("(X) ATTEMPT: " + str(checkinCount) + " --- " + str(e))
                 continue
