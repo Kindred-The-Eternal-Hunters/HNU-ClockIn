@@ -6,7 +6,7 @@
 "IsTouch": 0,
 "IsViaHuBei": 0,
 "IsViaWuHan": 0,
-"IsInCampus": 0,
+"IsInCampus": 1,
 "IsNormalTemperature": 1,
 "QRCodeColor": "绿色",
 "toucherinfolist": [],
